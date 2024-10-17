@@ -1,0 +1,421 @@
+/* main */
+* {
+  font-family: "Sarabun", sans-ser;
+  font-style: normal;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html body {
+  height: 100%;
+  background-color: #eeeeee;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+header.cabecario {
+  z-index: 999;
+  width: 100%;
+  padding: 15px;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  background-color: #203f8b;
+}
+
+.position {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.9em;
+  text-shadow:
+    -1px -1px 0px #000,
+    -1px 1px 0px #000,
+    1px -1px 0px #000,
+    1px 0px 0px #000;
+      word-wrap: break-word;
+}
+
+.flex-box1 {
+  min-width: 10%;
+}
+
+aside nav.navbar-desktop ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+aside nav.navbar-desktop ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.icon-menu {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.icon-menu span {
+  margin: 8px auto;
+  display: block;
+  margin-bottom: 8px;
+  width: 32px;
+  height: 2px;
+  color: white;
+  background-color: white;
+}
+
+.exit {
+  color: white;
+  display: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.9em;
+}
+
+.p-abs {
+  display: none;
+}
+
+/* banner */
+section.banner {
+  margin-top: 70px;
+  width: 100%;
+  height: 320px;
+  background: rgb(0, 255, 252);
+  background: linear-gradient(0deg,
+      rgba(0, 255, 252, 1) 0%,
+      rgba(0, 116, 255, 1) 47%,
+      rgba(32, 63, 139, 1) 100%);
+}
+
+.banner-text {
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+    word-wrap: break-word;
+}
+
+.banner-text h1 {
+  font-size: 3em;
+  color: #000;
+  text-shadow:
+    -1px -1px 0px #656565,
+    -1px 1px 0px #656565,
+    1px -1px 0px #656565,
+    1px 0px 0px #656565;
+}
+
+/* introdução */
+
+section.text-intro {
+  width: 100%;
+  min-height: 120px;
+  padding: 20px;
+}
+
+.main-wraper {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.wraper-ifo {
+  width: 50%;
+  min-width: 350px;
+  padding: 0 20px;
+}
+
+.wraper-img {
+  margin-bottom: 20px;
+}
+
+.wraper-img figure .img-ifo img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.wraper-img figure q {
+  font-size: 0.6em;
+    word-wrap: break-word;
+}
+
+.ifo-text article .text-intro h2 {
+  font-size: 2em;
+  margin: 15px;
+  text-transform: uppercase;
+  text-align: center;
+    word-wrap: break-word;
+}
+
+.ifo-text article .text-intro p {
+  text-align: justify;
+  margin: 15px;
+}
+
+.origens {
+  width: 100%;
+  padding: 20px;
+  min-height: 120px;
+}
+
+.wraper-origensp {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.wrapes-origens {
+  padding: 20px;
+  width: 50%;
+  min-width: 120px;
+}
+
+.text-origens article h2 {
+  font-size: 2em;
+  margin: 15px 0;
+  text-align: center;
+    word-wrap: break-word;
+}
+
+.text-origens article p {
+  margin: 15px 0;
+  text-align: justify;
+    word-wrap: break-word;
+}
+
+.origens-img {
+  padding: 20px;
+}
+
+.origens-img figure img {
+    width: 100%;
+  border-radius: 10px;
+}
+
+.origens-img figure q {
+  display: block;
+  font-size: 0.6em;
+    word-wrap: break-word;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+
+}
+
+section.sobre {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+
+}
+
+.wraper-sobre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sobre-wraper {
+  min-width: 120px;
+  padding: 20px;
+}
+
+.sobre-img figure img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+
+.sobre-img figure cite {
+  display: block;
+  font-size: 0.6em;
+  max-width: 150px;
+    word-wrap: break-word;
+}
+
+.sobre-wraper .sobre-text h2 {
+  font-size: 2em;
+  text-align: center;
+  margin: 15px 0;
+  word-wrap: break-word;
+}
+
+.sobre-wraper .sobre-text p {
+  text-align: justify;
+  margin: 15px 0;
+}
+
+section.motivacao {
+  width: 100%;
+  padding: 20px;
+  min-height: 120px;
+}
+
+.text-motivacao {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.text-motivacao article {
+  padding: 20px;
+}
+
+.text-motivacao article h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.text-motivacao article p {
+  margin-bottom: 15px;
+  text-align: justify;
+    word-wrap: break-word;
+}
+
+section.limitacao {
+  width: 100%;
+  padding: 20px;
+  min-height: 120px;
+}
+
+.text-limitacao {
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.text-limitacao article {
+  padding: 20px;
+}
+
+.text-limitacao article h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  text-align: center;
+    word-wrap: break-word;
+}
+
+.text-limitacao article p {
+  margin-bottom: 15px;
+  text-align: justify;
+    word-wrap: break-word;
+}
+
+section.legado {
+  width: 100%;
+  padding: 20px;
+  min-height: 120px;
+}
+
+.text-legado {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.text-legado article {
+  padding: 20px;
+}
+
+.text-legado h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 15px;
+    word-wrap: break-word;
+}
+
+.text-legado p {
+  margin-bottom: 15px;
+  text-align: justify;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-position {
+    display: none;
+  }
+
+  .p-abs {
+    padding: 20px;
+    text-align: center;
+    width: 70%;
+    min-height: 80px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    border-radius: 0 0 0 10px;
+    background-color: #203f8b;
+    border-bottom: 1px solid rgb(179, 179, 179);
+    border-left: 1px solid rgb(179, 179, 179);
+  }
+
+  .navbar-mobile ul li {
+    list-style: none;
+    padding: 20px;
+  }
+
+  .navbar-mobile ul li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+  }
+
+  .main-wraper {
+    justify-content: space-between;
+  }
+
+  .wraper-ifo {
+    padding: 0 0px;
+    width: 100%;
+    min-width: 120px;
+  }
+
+  .wrapes-origens {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .origens-img figure img {
+    width: 100%;
+    max-width: none;
+    border-radius: 10px;
+  }
+}
